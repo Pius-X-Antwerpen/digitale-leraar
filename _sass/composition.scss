@@ -35,11 +35,11 @@
     }
 
     #content {
-        display: block;
         grid-area: content;
     }
 
     #leftNav {
+        display: block;
         grid-area: leftNav;
     }
 
