@@ -88,18 +88,18 @@ footer {
     line-height: 1;
 }
 
-#topnav .search a {
+#topNav .search a {
     height: 100%;
     padding: 12px;
     padding-left: 4px;
 }
 
-#topnav .search input[type="text"] {
+#topNav .search input[type="text"] {
     border: 1px solid var(--light);
     border-radius: 50px;
 }
 
-#topnav .search input[type="text"]:focus {
+#topNav .search input[type="text"]:focus {
     outline: 1px solid var(--light);
     border-radius: 50px;
     width: 300px;
