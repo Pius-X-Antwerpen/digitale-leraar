@@ -97,13 +97,16 @@ footer {
 #topNav .search input[type="text"] {
     border: 1px solid var(--light);
     border-radius: 50px;
+    color: var(--light);
+    width: 50px;
 }
 
 #topNav .search input[type="text"]:focus {
     outline: none;
     background-color: var(--light);
     border-radius: 50px;
-    width: 300px;
+    width: 200px;
+    color: var(--dark);
 }
 
 #topNav .dropdown .dropdownWindow {
