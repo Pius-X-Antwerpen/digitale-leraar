@@ -1,0 +1,16 @@
+baseurl: "/digitale-leraar" 
+
+repo: "https://github.com/Pius-X-Antwerpen/digitale-leraar" 
+github_user: "Pius-X-Antwerpen"
+github_repo: "digitale-leraar"
+
+collections:
+  pages:
+    output: true
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
