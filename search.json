@@ -10,7 +10,7 @@ layout: null
       "tags"        :   "{{ page.tags | join: ', ' }}",
       "authors"     :   "{{ page.authors }}",
       "url"         :   "{{site.baseurl}}{{ page.url }}",
-      "description" :   "{{ page.description }}",
+      "description" :   "{{ page.description }}"
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
