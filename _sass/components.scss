@@ -80,6 +80,31 @@ footer {
     line-height: 1;
 }
 
+#topNav .search {
+    display: block;
+    float: left;
+    height: 3rem;
+    cursor: pointer;
+    line-height: 1;
+}
+
+#topnav .search a {
+    height: 100%;
+    padding: 12px;
+    padding-left: 4px;
+}
+
+#topnav .search input[type="text"] {
+    border: 1px solid var(--light);
+    border-radius: 50px;
+}
+
+#topnav .search input[type="text"]:focus {
+    outline: 1px solid var(--light);
+    border-radius: 50px;
+    width: 300px;
+}
+
 #topNav .dropdown .dropdownWindow {
     display: none;
     position: absolute;
