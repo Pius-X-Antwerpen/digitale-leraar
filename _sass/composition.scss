@@ -17,6 +17,10 @@
     break-inside: avoid;
 }
 
+#leftNav {
+    display: none;
+}
+
 @media only screen and (min-width: 600px) {
     #mainLayout {
         display: grid;
@@ -31,6 +35,7 @@
     }
 
     #content {
+        display: block;
         grid-area: content;
     }
 
