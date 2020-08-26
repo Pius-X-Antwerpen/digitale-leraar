@@ -26,7 +26,7 @@
                     <span data-state="right-aligned" class="search">
                         <input type="text" class="padding4" id="search-input">
                         <a href="#" class="color-light bg-hover-light color-hover-dark | material-icons">search</a>
-                        <div id="results-container" class="color-light bg-dark"></div>
+                        <div id="results-container" class="color-dark bg-light"></div>
                     </span>
                     <!--<a data-state="right-aligned" href="#" class="button | color-light bg-hover-light color-hover-dark">search</a>-->
                     <!--<a href="#" class="button | color-light bg-hover-light color-hover-dark">login</a>-->
@@ -72,7 +72,7 @@ SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: 'https://pius-x-antwerpen.github.io/digitale-leraar/search.json',
-    searchResultTemplate: '<li><a class="color-dark color-hover-bright" href="{{ site.baseurl }}{url}">{title}</a></li>'
+    searchResultTemplate: '<li><a class="color-dark color-hover-bright" href="{{ site.url }}{url}">{title}</a></li>'
 });
         </script>
     </body>
