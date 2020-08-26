@@ -70,6 +70,10 @@ footer {
 #content>main ol {
     list-style-type: decimal;
 }
+#results-container {
+    position: absolute;
+    right: 0;
+}
 
 #topNav .button {
     display: block;
