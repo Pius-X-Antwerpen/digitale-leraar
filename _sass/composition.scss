@@ -1,0 +1,74 @@
+/*
+    CSS Grid, mobile-first development
+*/
+
+.masonry {
+    columns: 4 300px;
+}
+ 
+.masonry>* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    column-span: none;
+    column-fill: auto;
+    break-inside: avoid;
+}
+
+@media only screen and (min-width: 600px) {
+    #mainLayout {
+        display: grid;
+        grid-template-columns: minmax(250px, 15%) auto;
+        grid-template-rows: 3rem auto 6rem;
+
+        grid-template-areas: ".         .       "
+                             "leftNav   content "
+                             "footer    footer  ";
+
+        min-height: 100%;
+    }
+
+    #content {
+        grid-area: content;
+    }
+
+    #leftNav {
+        grid-area: leftNav;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    #content {
+        display: grid;
+        grid-template-columns: auto minmax(250px, 15%);
+        grid-template-areas: "main sidebar";
+    }
+
+    #content>main {
+        grid-area: main;
+    }
+
+    #content>aside {
+        grid-area: sidebar;
+    }
+}
+
+
+
+@media print
+{    
+    #leftNav,
+    footer,
+    #content>aside,
+    #topNav
+    {
+        display: none !important;
+    }
+}

@@ -1,0 +1,9 @@
+<div id="pageActions">
+    <a class="pageAction | color-bright color-hover-dark padding4" href="javascript:window.print()"><span class="material-icons">print</span> Print deze pagina</a> 
+    <a class="pageAction | color-bright color-hover-dark padding4" href="{{site.repo}}/issues/new" target="_blank"><span class="material-icons">bug_report</span> Meld een fout</a> 
+    <a class="pageAction | color-bright color-hover-dark padding4" href="{{site.repo}}/edit/data/{{page.path}}" target="_blank"><span class="material-icons">create</span> Bewerk deze pagina</a> 
+</div>
+<hr>
+<div id="toc">
+{% include toc.html html=content %}
+</div>
