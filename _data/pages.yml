@@ -3,15 +3,3 @@
    pages: 
      - name: "Microsoft Whiteboard"
        link: /pages/ms-whiteboard.html
-
-# - name: "project: computer bouwen"
-#   link: /pages/project-pcbuilding-1-intro.html
-#   pages: 
-#     - name: "computer bouwen - inleiding"
-#       link: /pages/project-pcbuilding-1-intro.html
-
-# - name: "project: spel maken"
-#   link: /pages/project-gamedev-1-intro.html
-#   pages: 
-#     - name: "spelontwikkeling - inleiding"
-#       link: /pages/project-gamedev-1-intro.html
