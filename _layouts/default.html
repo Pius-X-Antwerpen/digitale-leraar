@@ -24,7 +24,7 @@
                         </div>
                     </span>
                     <span data-state="right-aligned" class="search">
-                        <input type="text" class="padding4">
+                        <input type="text" class="padding4" id="search-input">
                         <a href="#" class="color-light bg-hover-light color-hover-dark | material-icons">search</a>
                     </span>
                     <!--<a data-state="right-aligned" href="#" class="button | color-light bg-hover-light color-hover-dark">search</a>-->
@@ -63,5 +63,14 @@
 
             </footer>
         </div>
+
+        
+        <script>
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{site.baseurl}}/search.json'
+});
+        </script>
     </body>
 </html>
