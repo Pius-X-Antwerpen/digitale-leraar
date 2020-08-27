@@ -14,7 +14,7 @@ Hoewel een artikel bewerken op het eerste zicht redelijk technisch oogt, is het 
  2. Als je gevraagd wordt om in te loggen op Github, doe dit dan
     - [Hoe maak ik een Github account?](/digitale-leraar/pages/digitale-leraar-account-maken.html)
  3. Je ziet een leeg scherm. Hierin kan je je artikel schrijven met Markdown.
-    - [Markdown ziet er moeilijk uit. Kan dit niet gemakkelijker?](/digitale-leraar/pages/markdown-editor.html)
+    - [Markdown ziet er moeilijk uit. Kan dit niet gemakkelijker?](/digitale-leraar/markdown-editor.html)
  4. Klaar met schrijven? 
     1. klik op de **groene knop** "Propose new file".
     2. klik op de **groene knop** "Create pull request".
