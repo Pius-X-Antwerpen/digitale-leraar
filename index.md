@@ -9,4 +9,4 @@ Met deze wiki willen we de kennis en ervaring verzamelen die collega's hebben op
 
 ## Hoe werkt het?
 
-Je kan dit terugvinden in het artikel over artikels [bewerken](https://pius-x-antwerpen.github.io/digitale-leraar/pages/digitale-leraar-artikel-bewerken.html) en [aanmaken](https://pius-x-antwerpen.github.io/digitale-leraar/pages/digitale-leraar-artikel-schrijven.html) op deze website! Zo krijg je meteen ook een idee hoe een artikel eruit ziet.
+Je kan dit terugvinden in het artikel over artikels [bewerken](https://pius-x-antwerpen.github.io/digitale-leraar/pages/digitale-leraar-artikel-bewerken.html) en [aanmaken](https://pius-x-antwerpen.github.io/digitale-leraar/pages/digitale-leraar-artikel-schrijven.html) op deze website! Zo krijg je meteen ook een idee hoe een artikel eruit ziet. 

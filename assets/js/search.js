@@ -8,7 +8,7 @@
     'use strict'
     
     var _$Templater_7 = {
-      compile: compile,
+      compile: compile, 
       setOptions: setOptions
     }
     

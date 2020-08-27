@@ -7,7 +7,7 @@ github_repo: "digitale-leraar"
 
 collections:
   pages:
-    output: true
+    output: true 
 
 
 defaults:
