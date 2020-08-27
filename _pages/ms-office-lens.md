@@ -17,7 +17,8 @@ Office Lens tovert je smartphone om in een scanner. Deze app trimt, verbetert en
 
  1. Je installeert en opent de gratis app "Office Lens" <br> ![microsoft office lens]({{ site.baseurl }}/assets/images/ms-office-lens-1.jpeg)
 
- 2. Je zorgt dat je blad recht ligt en je maakt een foto van je blad door op de grote ronde knop onderaan te klikken. <br> ![microsoft office lens]({{ site.baseurl }}/assets/images/ms-office-lens-5.jpeg) ![microsoft office lens]({{ site.baseurl }}/assets/images/ms-office-lens-4.jpeg)
+ 2. Je zorgt dat je blad recht ligt en je maakt een foto van je blad door op de grote ronde knop onderaan te klikken.  
+ ![microsoft office lens]({{ site.baseurl }}/assets/images/ms-office-lens-5.jpeg) ![microsoft office lens]({{ site.baseurl }}/assets/images/ms-office-lens-4.jpeg)
  3. Als je te veel of te weinig op je scherm hebt staan, dan snij je de foto bij. Druk dan op "bevestigen". Je krijgt dan nog de gelegenheid om de foto te bewerken indien nodig.
  4. Je voegt een volgend blad toe door op "toevoegen" te drukken. Je herhaalt dit totdat je alle foto’s hebt toegevoegd.
  5. Je drukt nu op "gereed" (in het rood).
