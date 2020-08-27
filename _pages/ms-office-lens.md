@@ -26,3 +26,9 @@ Office Lens tovert je smartphone om in een scanner. Deze app trimt, verbetert en
  8. Je bewaart het bestand op je GSM en daarna plaats je het in de uploadzone. <br> ![microsoft office lens]({{ site.baseurl }}/assets/images/ms-office-lens-2.jpeg)
 
 Wanneer leerlingen tijdens afstandsonderwijs thuis een taak maken, is het een heel groot voordeel voor de leerkracht dat de taak in één pdf gebundeld is. Anders moet je foto per foto openen, en dat is enorm tijdrovend. Daarbij komt nog dat indien de leerlingen hun pdf in een uploadzone van SmartSchool droppen, de taak rechtstreeks op een iPad kan verbeterd worden en er feedback op gegeven kan worden. Dat is dan onmiddellijk zichtbaar voor de leerling.
+
+## Link
+
+[Play Store (android)](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&hl=en)
+
+[App Store (iOS)](https://apps.apple.com/us/app/microsoft-office-lens-pdf-scan/id975925059)
