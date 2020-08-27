@@ -1,5 +1,6 @@
 ---
 title: De Digitale Leraar
+pagetype: homepage
 ---
 
 ## Wat is dit?

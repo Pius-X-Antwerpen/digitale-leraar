@@ -14,4 +14,5 @@ defaults:
   - scope:
       path: ""
     values:
+      pagetype: article
       layout: "default"
