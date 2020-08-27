@@ -53,7 +53,7 @@ Vergeet niet de title, authors en tags in te vullen! Een tag is een zoekterm die
              autoHeight : true,
             path : "editor.md/lib/",  // Autoload modules mode, codemirror, marked... dependents libs path
             toolbarIcons : function() {
-                return editormd.toolbarModes[simple];
+                return editormd.toolbarModes["simple"];
             }
         });
     });
