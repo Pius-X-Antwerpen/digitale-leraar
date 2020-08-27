@@ -71,6 +71,14 @@ footer {
     list-style-type: decimal;
 }
 
+#content>main a {
+    color: var(--bright);
+}
+
+#content>main a:hover {
+    text-decoration: underline;
+}
+
 #results-container {
     position: absolute;
     right: 0;
