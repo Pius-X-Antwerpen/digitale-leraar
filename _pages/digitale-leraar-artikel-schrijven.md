@@ -1,9 +1,11 @@
 ---
 title: Een Nieuw Artikel Schrijven
-tags: 
+tags: null
 authors:
- - Sam Van Battel
+  - Sam Van Battel
+published: true
 ---
 
 ## Hoe werkt het?
 
+test
