@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digitale Leraar</title>
+
+        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=desert"></script>
+
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css"> 
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax-highlighting.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="mainLayout">
+            <header>
+                <nav id="topNav" class="bg-primary">
+                    <a href="/digitale-leraar" class="button | color-light bg-hover-light color-hover-dark | material-icons">home</a>
+                    <span class="dropdown button | color-light bg-hover-light color-hover-dark">
+                        menu
+                        <div class="dropdownWindow masonry | bg-light padding16">
+                            {% include mainNavigation.html %}
+                        </div>
+                    </span>
+                    <span data-state="right-aligned" class="search">
+                        <input type="text" class="padding4" id="search-input">
+                        <a href="#" class="color-light bg-hover-light color-hover-dark | material-icons">search</a>
+                        <div id="results-container" class="color-dark bg-light"></div>
+                    </span>
+                    <!--<a data-state="right-aligned" href="#" class="button | color-light bg-hover-light color-hover-dark">search</a>-->
+                    <!--<a href="#" class="button | color-light bg-hover-light color-hover-dark">login</a>-->
+                </nav>
+            </header>
+            <nav id="leftNav" class="bg-light border padding16">
+
+                <ul class="padding16">
+                    {% for chapter in site.data.pages %}
+                    <li>{{chapter.name}}</li>
+                    <li>
+                        <ul class="padding16">
+                            {% for page in chapter.pages %}
+                                <li><a href="{{site.baseurl}}{{page.link}}" class="navlink | color-hover-bright">{{ page.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endfor %}
+                    </li>
+                </ul>
+
+                <script src="{{site.baseurl}}/assets/js/search.js" type="text/javascript"></script>
+            </nav>
+            <div id="content">
+                <aside class="padding16">
+                    <nav id="contentNav">
+                        {% include pageNavigation.html %}
+                    </nav>
+                </aside>
+                <main class="padding16">
+                    <h1>{{ page.title | capitalize }}</h1>
+                    
+                    {{ content }}
+                </main>
+            </div>
+            <footer class="bg-dark">
+
+            </footer>
+        </div>
+
+        
+        <script>
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: 'https://pius-x-antwerpen.github.io/digitale-leraar/search.json',
+    searchResultTemplate: '<li><a class="color-dark color-hover-bright" href="{{ site.url }}{url}">{title}</a></li>'
+});
+        </script>
+    </body>
+</html>
