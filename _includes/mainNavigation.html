@@ -1,0 +1,11 @@
+
+                            {% for chapter in site.data.pages %}
+                            <div class="bg-light border padding16">
+                                <span>{{chapter.name}}</span>
+                                <ul class="padding16">
+                                    {% for page in chapter.pages %}
+                                        <li><a class="color-hover-bright" href="{{site.baseurl}}{{page.link}}">{{ page.name }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div> 
+                            {% endfor %} 

@@ -1,0 +1,76 @@
+/*
+    CSS reset and CSS variables
+*/
+
+:root {
+    --primary: #30638e;
+    --dark: #403f4c;
+    --bright: #3176d9;
+    --light: #fafafa;
+    --background: #fff;  
+    --border: #dedede;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    background-color: inherit;
+    font-family: inherit;
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+li>a {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Open Sans", "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    padding-top: 16px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+pre {
+    color: #ddd;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 16px;
+}
+
+p {
+    padding: 8px;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+i, em {
+    font-style: italic;
+}
+
+img {
+    height: auto; 
+    max-width: 100%;
+}
