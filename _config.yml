@@ -2,6 +2,10 @@ prose:
   rooturl: '_pages'
   siteurl: 'https://pius-x-antwerpen.github.io/digitale-leraar/'
   media: 'assets/images'
+  ignore:
+    - _config.yml
+    - README.md
+    - /_data
 
 baseurl: "/digitale-leraar" 
 
