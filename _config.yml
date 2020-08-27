@@ -16,3 +16,8 @@ defaults:
     values:
       pagetype: article
       layout: "default"
+
+prose:
+  rooturl: "_pages"
+  siteurl: "https://pius-x-antwerpen.github.io/digitale-leraar"
+  media: "assets/images"
