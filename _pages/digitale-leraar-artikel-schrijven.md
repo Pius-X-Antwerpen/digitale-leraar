@@ -23,3 +23,16 @@ Je schrijft een artikel in 4 stappen:
     3. klik op de **groene knop** "Create pull request". (nogmaals)
 
 Je artikel wordt nog even nagelezen door het kernteam, waarna het gepubliceerd wordt.
+
+
+## Enkele richtlijnen
+
+Een artikel bestaat vaak uit een aantal onderdelen:
+
+ - Wat is het?
+ - Hoe werkt het?
+ - Een link die toont waar je het product of de software kan vinden.
+
+Een goed artikel heeft ook enkele **tags**. Tags zijn zoektermen die gebruikers in het zoekveld (bovenaan de pagina) kunnen intypen om je artikel gemakkelijk te vinden.
+
+Laat ook weten of je **naam** gebruikt mag worden als auteur.
