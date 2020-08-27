@@ -11,10 +11,21 @@ Hieronder kan je aan de linkerkant tekst typen en opmaken met de knoppenbalk, en
 
 Schrijf je artikel gerust in deze editor, waarna je de Markdown tekst kan kopieren en plakken op de juiste plek in Github.
 
+Vergeet niet de title, authors en tags in te vullen! Een tag is een zoekterm die ook gebruikt kan worden om je artikel te vinden.
+
 <link rel="stylesheet" href="editor.md/css/editormd.css" />
 <div id="editor">
     <!-- Tips: Editor.md can auto append a `<textarea>` tag -->
-    <textarea style="display:none;"># Markdown editor
+    <textarea style="display:none;">---
+title: Markdown Editor
+
+authors: 
+ - Joske Vermeulen
+
+tags:
+ - markdown
+ - artikel schrijven
+---
 
 ## Wat is markdown?
 
@@ -28,6 +39,8 @@ Een lijstje is zo simpel als een `-` voor elk lijst-onderdeel te plaatsen. Of je
 Hier kan je aan de linkerkant tekst typen en opmaken met de knoppenbalk, en rechts het resultaat bekijken.
 
 Schrijf je artikel gerust in deze editor, waarna je de Markdown tekst (dus de linkerkant) kan kopiëren en plakken op de juiste plek in Github.
+
+Vergeet niet de title, authors en tags in te vullen! Een tag is een zoekterm die ook gebruikt kan worden om je artikel te vinden.
 </textarea>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
