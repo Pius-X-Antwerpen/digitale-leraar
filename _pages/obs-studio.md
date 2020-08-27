@@ -20,6 +20,8 @@ Rechtsonder kan je de opname starten en stoppen.
 
 Bij "bestand" kan je kiezen voor "opnames weergeven". Van daaruit kan het videobestand naar een willekeurige plaats gekopieerd worden.
 
+![microsoft office lens]({{ site.baseurl }}/assets/images/obs-studio-1.jpeg)
+
 ## Link
 
 Je kan [OBS Studio hier downloaden](https://obsproject.com/download).
