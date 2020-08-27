@@ -19,3 +19,7 @@ Op voorhand moet je een aantal instellingen doen: bij "bronnen" (links onderaan)
 Rechtsonder kan je de opname starten en stoppen.
 
 Bij "bestand" kan je kiezen voor "opnames weergeven". Van daaruit kan het videobestand naar een willekeurige plaats gekopieerd worden.
+
+## Link
+
+Je kan [OBS Studio hier downloaden](https://obsproject.com/download).
