@@ -14,7 +14,7 @@ Schrijf je artikel gerust in deze editor, waarna je de Markdown tekst kan kopier
 Vergeet niet de title, authors en tags in te vullen! Een tag is een zoekterm die ook gebruikt kan worden om je artikel te vinden.
 
 <link rel="stylesheet" href="editor.md/css/editormd.css" />
-<div id="editor">
+<div id="editor" style="min-height: 200px;">
     <!-- Tips: Editor.md can auto append a `<textarea>` tag -->
     <textarea style="display:none;">---
 title: Markdown Editor
