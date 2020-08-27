@@ -1,6 +1,7 @@
 baseurl: "/digitale-leraar" 
 
 repo: "https://github.com/Pius-X-Antwerpen/digitale-leraar" 
+prose: "https://prose.io/#Pius-X-Antwerpen/digitale-leraar" 
 github_user: "Pius-X-Antwerpen"
 github_repo: "digitale-leraar"
 
