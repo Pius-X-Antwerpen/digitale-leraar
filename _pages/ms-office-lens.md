@@ -5,6 +5,8 @@ tags:
  - app
  - android
  - ios
+ - scannen
+ - pagina
 authors:
  - Stefan Verhulst
 ---
