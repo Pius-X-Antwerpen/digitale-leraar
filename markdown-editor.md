@@ -50,9 +50,11 @@ Vergeet niet de title, authors en tags in te vullen! Een tag is een zoekterm die
     $(function() {
         var editor = editormd("editor", {
              width: "100%",
-             height: "100%",
-            // markdown: "xxxx",     // dynamic set Markdown text
+             autoHeight : true,
             path : "editor.md/lib/"  // Autoload modules mode, codemirror, marked... dependents libs path
+            toolbarIcons : function() {
+                return editormd.toolbarModes[simple];
+            }
         });
     });
 </script>
