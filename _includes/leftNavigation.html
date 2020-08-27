@@ -6,9 +6,9 @@
                         <ul class="padding16">
                             {% for article in chapter.pages %}
                                 {% if page.url contains article.link %}
-                                <li><a href="{{site.baseurl}}{{article.link}}" class="navlink | color-hover-bright">{{ article.name }}</a></li>
-                                {% else %}
                                 <li><a href="{{site.baseurl}}{{article.link}}" class="navlink | color-hover-bright"><u>{{ article.name }}</u></a></li>
+                                {% else %}
+                                <li><a href="{{site.baseurl}}{{article.link}}" class="navlink | color-hover-bright">{{ article.name }}</a></li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
