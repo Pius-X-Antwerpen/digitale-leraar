@@ -1,7 +1,6 @@
 ---
+title: De Digitale Leraar
 ---
-
-# De Digitale Leraar
 
 ## Wat is dit?
 
