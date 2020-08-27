@@ -54,7 +54,7 @@ Vergeet niet de title, authors en tags in te vullen! Een tag is een zoekterm die
             path : "editor.md/lib/",  // Autoload modules mode, codemirror, marked... dependents libs path
             toolbarIcons : function() {
                 //return editormd.toolbarModes["simple"];
-                return ["undo", "redo", "|", "bold", "italic", "|", "h1", "h2", "h3", "h4", "|", "list-ul", "list-ol", "hr", "|", "image", "table", "|", "clear", "watch", "||", "fullscreen"];
+                return ["undo", "redo", "|", "bold", "italic", "|", "h2", "h3", "h4", "|", "list-ul", "list-ol", "hr", "|", "image", "table", "|", "clear", "watch", "||", "fullscreen"];
             }
         });
     });
