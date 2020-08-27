@@ -11,7 +11,7 @@ Hieronder kan je aan de linkerkant tekst typen en opmaken met de knoppenbalk, en
 
 Schrijf je artikel gerust in deze editor, waarna je de Markdown tekst kan kopieren en plakken op de juiste plek in Github.
 
-<link rel="stylesheet" href="editor.md/css/editormd.min.css" />
+<link rel="stylesheet" href="editor.md/css/editormd.css" />
 <div id="editor">
     <!-- Tips: Editor.md can auto append a `<textarea>` tag -->
     <textarea style="display:none;">### Hello Editor.md !</textarea>
