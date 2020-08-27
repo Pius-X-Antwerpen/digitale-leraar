@@ -4,11 +4,11 @@
                     <li>{{chapter.name}}</li>
                     <li>
                         <ul class="padding16">
-                            {% for page in chapter.pages %}
-                                {% if page.url contains page.link %}
-                                <li><a href="{{site.baseurl}}{{page.link}}" class="navlink | color-hover-bright">{{ page.name }}</a></li>
+                            {% for article in chapter.pages %}
+                                {% if page.url contains article.link %}
+                                <li><a href="{{site.baseurl}}{{article.link}}" class="navlink | color-hover-bright">{{ article.name }}</a></li>
                                 {% else %}
-                                <li><a href="{{site.baseurl}}{{page.link}}" class="navlink | color-hover-bright"><u>{{ page.name }}</u></a></li>
+                                <li><a href="{{site.baseurl}}{{article.link}}" class="navlink | color-hover-bright"><u>{{ article.name }}</u></a></li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
