@@ -8,4 +8,4 @@ published: true
 
 ## Hoe werkt het?
 
-test
+![prose]({{site.baseurl}}/assets/images/digitale-leraar-nieuw-artikel-prose-1.PNG)
