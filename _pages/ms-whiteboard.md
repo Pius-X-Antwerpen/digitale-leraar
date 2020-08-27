@@ -1,5 +1,11 @@
 ---
 title: Microsoft Whiteboard
+tags: 
+ - digitaal schoolbord
+ - tekenen
+ - schrijven
+authors:
+ - Sam Van Battel
 ---
 
 ## MS Whiteboard Online
