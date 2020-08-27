@@ -1,3 +1,8 @@
+prose:
+  rooturl: '_pages'
+  siteurl: 'https://pius-x-antwerpen.github.io/digitale-leraar/'
+  media: 'assets/images'
+
 baseurl: "/digitale-leraar" 
 
 repo: "https://github.com/Pius-X-Antwerpen/digitale-leraar" 
@@ -16,8 +21,3 @@ defaults:
     values:
       pagetype: article
       layout: "default"
-
-prose:
-  rooturl: "_pages"
-  siteurl: "https://pius-x-antwerpen.github.io/digitale-leraar"
-  media: "assets/images"
