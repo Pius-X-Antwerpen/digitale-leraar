@@ -9,6 +9,4 @@ Met deze wiki willen we de kennis en ervaring verzamelen die collega's hebben op
 
 ## Hoe werkt het?
 
-### Een nieuw artikel schrijven
-
-Je vindt rechts (op PC of Mac) of bovenaan (op je smartphone) een link genaamd **Nieuwe pagina**. 
+Je kan dit terugvinden in het artikel over artikels bewerken en aanmaken op deze website! Zo krijg je meteen ook een idee hoe een artikel eruit ziet hier.
