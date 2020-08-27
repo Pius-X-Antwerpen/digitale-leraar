@@ -34,20 +34,8 @@
             </header>
             <nav id="leftNav" class="bg-light border padding16">
 
-                <ul class="padding16">
-                    {% for chapter in site.data.pages %}
-                    <li>{{chapter.name}}</li>
-                    <li>
-                        <ul class="padding16">
-                            {% for page in chapter.pages %}
-                                <li><a href="{{site.baseurl}}{{page.link}}" class="navlink | color-hover-bright">{{ page.name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                        {% endfor %}
-                    </li>
-                </ul>
+                {% include leftNavigation.html %}
 
-                <script src="{{site.baseurl}}/assets/js/search.js" type="text/javascript"></script>
             </nav>
             <div id="content">
                 <aside class="padding16">
