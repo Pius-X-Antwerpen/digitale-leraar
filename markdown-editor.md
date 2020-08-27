@@ -8,7 +8,7 @@ pagetype: homepage
     <!-- Tips: Editor.md can auto append a `<textarea>` tag -->
     <textarea style="display:none;">### Hello Editor.md !</textarea>
 </div>
-<script src="jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="editor.md/editormd.min.js"></script>
 <script type="text/javascript">
     $(function() {
