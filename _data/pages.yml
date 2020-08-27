@@ -1,5 +1,15 @@
+
+ - name: "Website Digitale Leraar"
+   link:
+   pages: 
+     - name: "Nieuw Artikel"
+       link: /pages/digitale-leraar-artikel-schrijven.html
+     - name: "Artikel Bewerken"
+       link: /pages/digitale-leraar-artikel-bewerken.html
+     - name: "Fout Melden"
+       link: /pages/digitale-leraar-fout-melden.html
  - name: "Digitaal Bord"
-   link: /pages/project-website-1-intro.html
+   link:
    pages: 
      - name: "Microsoft Whiteboard"
        link: /pages/ms-whiteboard.html
@@ -8,7 +18,7 @@
      - name: "Office Lens app"
        link: /pages/ms-office-lens.html
  - name: "Scherm Opnemen"
-   link: /pages/project-website-1-intro.html
+   link:
    pages: 
      - name: "OBS Studio"
        link: /pages/obs-studio.html
