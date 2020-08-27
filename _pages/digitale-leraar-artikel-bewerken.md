@@ -8,7 +8,9 @@ published: true
 
 ## Hoe werkt het?
 
-Hoewel een artikel bewerken op het eerste zicht redelijk technisch oogt, is het proces op dit moment zo gemakkelijk mogelijk gehouden. Je schrijft een artikel in 4 stappen:
+Hoewel een artikel bewerken op het eerste zicht redelijk technisch oogt, is het proces zo gemakkelijk mogelijk gehouden. 
+
+Je schrijft een artikel in 4 stappen:
 
  1. Je klikt op de link "Nieuwe pagina" rechts (op mac of pc) of bovenaan (op je smartphone)
  2. Als je gevraagd wordt om in te loggen op Github, doe dit dan
