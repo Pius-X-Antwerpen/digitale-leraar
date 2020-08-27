@@ -3,7 +3,7 @@
 */
 
 .masonry {
-    columns: 4 300px;
+    columns: 100% 1;
 }
  
 .masonry>* {
@@ -22,6 +22,11 @@
 }
 
 @media only screen and (min-width: 600px) {
+
+    .masonry {
+        columns: 4 300px;
+    }
+
     #mainLayout {
         display: grid;
         grid-template-columns: minmax(250px, 15%) auto;
