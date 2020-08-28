@@ -22,3 +22,10 @@
    pages: 
      - name: "OBS Studio"
        link: /pages/obs-studio.html
+ - name: "Schrijven en Tekenen"
+   link:
+   pages: 
+     - name: "Microsoft Whiteboard"
+       link: /pages/ms-whiteboard.html
+     - name: "Smartpen Kit"
+       link: /pages/smartpen-neo-smartclass-kit.html
