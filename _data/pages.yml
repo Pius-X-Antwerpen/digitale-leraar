@@ -29,3 +29,8 @@
        link: /pages/ms-whiteboard.html
      - name: "Smartpen Kit"
        link: /pages/smartpen-neo-smartclass-kit.html
+ - name: "Digitaal Lesgeven"
+   link: 
+   pages:
+     - name: "Digitale Werkvormen"
+       link: /pages/digitale-werkvormen.html
